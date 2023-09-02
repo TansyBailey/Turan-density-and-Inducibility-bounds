@@ -1,0 +1,16 @@
+There are 5 unlabelled 3-graphs of order 4.
+There are 1 types of order 2, and [2] flags of order 3.
+
+In order to calculate the inducibility, we solve the following semidefinite program:
+
+Variables: p1, p2, p3, p4, p5
+Objective: maximise p2
+Constraints:
+p1, p2, p3, p4, p5 >= 0
+p1 + p2 + p3 + p4 + p5 = 1
+[['p1 + 0.500000000000000p2 + 0.166666666666667p3', '0.250000000000000p2 + 0.333333333333333p3 + 0.250000000000000p4']
+['0.250000000000000p2 + 0.333333333333333p3 + 0.250000000000000p4', '0.166666666666667p3 + 0.500000000000000p4 + p5']] >= 0
+
+This gives an optimal value of: 0.888888889134462
+
+The corresponding variable values are: {0: 2.1323960630321086e-11, 1: 0.888888889134462, 2: 7.312176813833764e-12, 3: 1.692770422371145e-10, 4: 0.11111111073296608}

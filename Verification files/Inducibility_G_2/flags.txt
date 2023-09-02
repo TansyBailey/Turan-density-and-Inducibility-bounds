@@ -1,0 +1,5 @@
+
+The vertex and edge sets of the flags are:
+
+Vertex set:  ['v1', 'v2', 2] ; Edge set:  []
+Vertex set:  ['v1', 'v2', 2] ; Edge set:  [['v1', 'v2', 2]]

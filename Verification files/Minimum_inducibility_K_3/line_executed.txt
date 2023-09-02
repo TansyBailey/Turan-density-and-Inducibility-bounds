@@ -1,0 +1,4 @@
+The line of code executed to produce these files:
+
+P = IncidenceStructure(3,[[0,1],[0,2],[1,2]])
+induced_main_function(2,5,F_free_rgraphs(2,5,[P]),[P],'I')

@@ -1,0 +1,19 @@
+There are 3 unlabelled 4-graphs of order 5.
+There is 1 type of order 1, and [1] flags of order 3.
+There are 1 types of order 3, and [2] flags of order 4.
+
+In order to calculate the Turan density, we solve the following semidefinite program:
+
+Variables: q00, q01, q02, q11, q12, q22, k
+Objective: minimise k
+Constraints: 
+q00 + q11 <= k
+q00 + 0.600000000000000q11 + 0.400000000000000q12 + 0.200000000000000 <= k
+q00 + 0.300000000000000q11 + 0.600000000000000q12 + 0.100000000000000q22 + 0.400000000000000 <= k
+[['q00', 'q01', 'q02']
+['q01', 'q11', 'q12']
+['q02', 'q12', 'q22']] >= 0
+
+This gives an optimal value of: 0.2500000161654253
+
+The corresponding variable values are: {6: 0.2500000161654253, 0: -2.575511974571712e-09, 1: 2.03539947042708e-18, 2: -6.107914951755699e-18, 3: 0.25000000563623076, 4: -0.7502111450159642, 5: 2.25126700703363}

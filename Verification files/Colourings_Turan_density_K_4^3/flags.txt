@@ -1,0 +1,21 @@
+
+The vertex and edge sets of the flags are:
+
+Vertex set:  ['v1', 1, 2] ; Edge set:  []
+Vertex set:  ['v1', 1, 2] ; Edge set:  [['v1', 1, 2]]
+Vertex set:  ['v1', 'v2', 'v3', 3] ; Edge set:  []
+Vertex set:  ['v1', 'v2', 'v3', 3] ; Edge set:  [['v1', 'v2', 'v3']]
+Vertex set:  ['v1', 'v2', 'v3', 3] ; Edge set:  [['v1', 'v2', 'v3'], ['v1', 'v2', 3]]
+Vertex set:  ['v1', 'v2', 'v3', 3] ; Edge set:  [['v1', 'v2', 'v3'], ['v1', 'v2', 3], ['v1', 'v3', 3]]
+Vertex set:  ['v1', 'v2', 'v3', 3] ; Edge set:  [['v1', 'v2', 'v3'], ['v1', 'v2', 3], ['v1', 'v3', 3], ['v2', 'v3', 3]]
+Vertex set:  ['v1', 'v2', 2, 'v3'] ; Edge set:  [['v1', 'v2', 2]]
+Vertex set:  ['v1', 'v3', 'v2', 3] ; Edge set:  [['v1', 'v3', 'v2'], ['v1', 'v3', 3]]
+Vertex set:  ['v1', 1, 'v2', 'v3'] ; Edge set:  [['v1', 1, 'v2'], ['v1', 1, 'v3']]
+Vertex set:  ['v1', 'v3', 2, 'v2'] ; Edge set:  [['v1', 'v3', 2]]
+Vertex set:  ['v2', 'v1', 'v3', 3] ; Edge set:  [['v2', 'v1', 'v3'], ['v2', 'v1', 3], ['v2', 'v3', 3]]
+Vertex set:  ['v3', 'v1', 'v2', 3] ; Edge set:  [['v3', 'v1', 'v2'], ['v3', 'v1', 3], ['v3', 'v2', 3]]
+Vertex set:  [0, 'v1', 'v2', 'v3'] ; Edge set:  [[0, 'v1', 'v2'], [0, 'v1', 'v3'], [0, 'v2', 'v3']]
+Vertex set:  ['v2', 'v3', 'v1', 3] ; Edge set:  [['v2', 'v3', 'v1'], ['v2', 'v3', 3]]
+Vertex set:  ['v2', 1, 'v1', 'v3'] ; Edge set:  [['v2', 1, 'v1'], ['v2', 1, 'v3']]
+Vertex set:  ['v3', 1, 'v1', 'v2'] ; Edge set:  [['v3', 1, 'v1'], ['v3', 1, 'v2']]
+Vertex set:  ['v2', 'v3', 2, 'v1'] ; Edge set:  [['v2', 'v3', 2]]

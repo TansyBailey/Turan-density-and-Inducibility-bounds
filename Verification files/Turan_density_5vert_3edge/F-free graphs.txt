@@ -1,0 +1,4 @@
+The edge sets of the F-free r-graphs on k vertices are:
+[]
+[[0, 1, 2, 3]]
+[[0, 1, 2, 3], [0, 1, 2, 4]]
